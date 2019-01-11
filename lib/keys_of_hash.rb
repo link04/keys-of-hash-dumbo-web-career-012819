@@ -15,6 +15,7 @@ class Hash
         animal <<  hash.key(arguments)
     end
     animal
+    binding.pry
   end
   
 end
