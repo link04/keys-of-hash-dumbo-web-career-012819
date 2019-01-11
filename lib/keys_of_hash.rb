@@ -19,7 +19,6 @@ class Hash
           end
         end
       end
-  
     end
     array
     binding.pry
