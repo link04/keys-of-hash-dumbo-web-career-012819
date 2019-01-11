@@ -12,9 +12,15 @@ class Hash
     elsif arguments.include?  "Australia"
       array = ["sugar glider", "kangaroo", "koala"] 
     else 
+      hash.each do |key, value|
+        
+      end
+      
       arguments.each do |item|
         array << hash.key(item)
       end
+      
+      
     end
     array
     binding.pry
