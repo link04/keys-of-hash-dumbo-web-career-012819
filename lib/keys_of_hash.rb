@@ -14,16 +14,12 @@ class Hash
     else 
       hash.each do |key, value|
         arguments.each do |item|
-          array << hash.key(item)
-          
+          if value == item
+            array << key
+          end
         end
       end
-      
-      arguments.each do |item|
-        array << hash.key(item)
-      end
-      
-      
+  
     end
     array
     binding.pry
