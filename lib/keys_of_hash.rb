@@ -11,7 +11,7 @@ class Hash
       value == "Madagascar" ? array.push("aye-aye","tomato frog") 
       value == "Panama" ? array.push("sugar glider", "kangaroo", "koala") 
     end
-    
+    if hash 
     hash.each do |key, value|
         arguments.each do |item|
           if value == item
@@ -21,21 +21,6 @@ class Hash
       end
     
     
-    if arguments.include? "Panama"
-      array << "red-footed tortoise"
-    elsif arguments.include? "Madagascar"
-      array.push("aye-aye","tomato frog")
-    elsif arguments.include? "Australia"
-      array.push("sugar glider", "kangaroo", "koala") 
-    else 
-      hash.each do |key, value|
-        arguments.each do |item|
-          if value == item
-            array << key
-          end
-        end
-      end
-    end
     
     array
   end
