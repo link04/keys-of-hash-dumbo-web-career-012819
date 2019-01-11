@@ -17,8 +17,7 @@ class Hash
           array.push("sugar glider", "kangaroo", "koala")
         end
       end
-    end
-    if hash.is_a?(Hash)
+    else
       hash.each do |key, value|
           arguments.each do |item|
             if value == item
