@@ -8,7 +8,7 @@ class Hash
     if arguments.include? "Panama"
       array << "red-footed tortoise"
     elsif arguments.include?   "Madagascar"
-      array.push << "aye-aye","tomato frog")
+      array.push("aye-aye","tomato frog")
     elsif arguments.include?  "Australia"
       array.push("sugar glider", "kangaroo", "koala") 
     else 
