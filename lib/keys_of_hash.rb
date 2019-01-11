@@ -7,9 +7,9 @@ class Hash
     hash = self
     if arguments.include? "Panama"
       array << "red-footed tortoise"
-    elsif arguments.include?   "Madagascar"
+    elsif arguments.include? "Madagascar"
       array.push("aye-aye","tomato frog")
-    elsif arguments.include?  "Australia"
+    elsif arguments.include? "Australia"
       array.push("sugar glider", "kangaroo", "koala") 
     else 
       hash.each do |key, value|
