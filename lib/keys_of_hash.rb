@@ -13,7 +13,7 @@ class Hash
       array = ["sugar glider", "kangaroo", "koala"] 
     else 
       arguments.each do |item|
-        array <<  hash.key(item)
+        array << hash.key(item)
       end
     end
     array
