@@ -17,5 +17,4 @@ class Hash
     animal
     binding.pry
   end
-  
 end
