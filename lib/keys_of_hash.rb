@@ -12,7 +12,9 @@ class Hash
     elsif arguments.include?  "Australia"
       animal = ["sugar glider", "kangaroo", "koala"] 
     else 
-        animal <<  hash.key(arguments[0])
+      arguments.each do |item|
+        animal <<  hash.key(item)
+      end
     end
     animal
     binding.pry
