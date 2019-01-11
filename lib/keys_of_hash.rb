@@ -15,6 +15,7 @@ class Hash
           array.push("aye-aye","tomato  frog")
         when "Panama"
           array.push("sugar glider", "kangaroo", "koala")
+        end
       end
     end
     if hash.is_a?(Hash)
