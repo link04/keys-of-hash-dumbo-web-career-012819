@@ -13,7 +13,9 @@ class Hash
       array = ["sugar glider", "kangaroo", "koala"] 
     else 
       hash.each do |key, value|
-        
+        arguments.each do |item|
+          array << hash.key(item)
+        end
       end
       
       arguments.each do |item|
