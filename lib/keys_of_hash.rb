@@ -12,8 +12,9 @@ class Hash
         when "Panama" 
           array << "red-footed tortoise"
         when "Madagascar" 
-           array.push("aye-aye","tomato  frog")
-        value == "Panama" ? array.push("sugar glider", "kangaroo", "koala") : false
+          array.push("aye-aye","tomato  frog")
+        when "Panama"
+          array.push("sugar glider", "kangaroo", "koala")
       end
     end
     if hash.is_a?(Hash)
