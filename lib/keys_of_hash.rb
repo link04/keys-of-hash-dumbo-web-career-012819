@@ -8,6 +8,7 @@ class Hash
     
     if hash.is_a?(Array)
       arguments.each do |value|
+        case (value)
         value == "Panama" ? array << "red-footed tortoise" : false
         value == "Madagascar" ? array.push("aye-aye","tomato  frog")  : false
         value == "Panama" ? array.push("sugar glider", "kangaroo", "koala") : false
