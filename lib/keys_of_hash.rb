@@ -3,20 +3,19 @@ require 'pry'
 class Hash
   
   def keys_of(*arguments)
-    animal = []
+    array = []
     hash = self
     if arguments.include? "Panama"
-      animal << "red-footed tortoise"
+      array << "red-footed tortoise"
     elsif arguments.include?   "Madagascar"
-      animal = ["aye-aye","tomato frog"] 
+      array = ["aye-aye","tomato frog"] 
     elsif arguments.include?  "Australia"
-      animal = ["sugar glider", "kangaroo", "koala"] 
+      array = ["sugar glider", "kangaroo", "koala"] 
     else 
       arguments.each do |item|
-        animal <<  hash.key(item)
+        array <<  hash.key(item)
       end
     end
-    animal
-    binding.pry
+    array
   end
 end
