@@ -10,8 +10,9 @@ class Hash
       arguments.each do |value|
         case value
         when "Panama" 
-          array << "red-footed tortoise" 
-        value == "Madagascar" ? array.push("aye-aye","tomato  frog")  : false
+          array << "red-footed tortoise"
+        when "Madagascar" 
+           array.push("aye-aye","tomato  frog")
         value == "Panama" ? array.push("sugar glider", "kangaroo", "koala") : false
       end
     end
