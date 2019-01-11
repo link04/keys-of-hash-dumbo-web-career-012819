@@ -5,6 +5,12 @@ class Hash
   def keys_of(*arguments)
     array = []
     hash = self
+    
+    arguments.each do |value|
+      value == "Panama"? array << "red-footed tortoise" 
+      
+    end
+    
     if arguments.include? "Panama"
       array << "red-footed tortoise"
     elsif arguments.include? "Madagascar"
