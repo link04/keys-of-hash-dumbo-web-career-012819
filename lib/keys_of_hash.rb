@@ -19,13 +19,13 @@ class Hash
       end
     else
       hash.each do |key, value|
-          arguments.each do |item|
-            if value == item
-              array << key
-            end
+        arguments.each do |item|
+          if value == item
+            array << key
           end
         end
       end
+    end
     array
   end
 end
